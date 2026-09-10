@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.0",
+  "description": "Dweller 1 Client Entity Definition",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dweller:dweller_1",
+      "min_engine_version": "1.20.0",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dweller_1/dweller_1"
+      },
+      "geometry": {
+        "default": "geometry.dweller_1"
+      },
+      "animations": {
+        "move": "animation.dweller_1.move",
+        "idle": "animation.dweller_1.idle",
+        "attack": "animation.dweller_1.attack"
+      },
+      "scripts": {
+        "animate": [
+          "move",
+          "idle",
+          "attack"
+        ]
+      }
+    }
+  }
+}
